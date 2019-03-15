@@ -1,0 +1,40 @@
+<!--pages/details/details.wxml-->
+<view style='background-color:#fff'>
+    <view style='text-align:left;height:35px;line-height:35px'>
+        <text style='font-size:20px;padding:15px'>世界上是先有鸡还是先有蛋？</text>
+    </view>
+    <view class='pl'>
+        <view>
+            <text style='font-size:16px;color: gainsboro'>6K 评论</text>
+        </view>
+        <view style='font-size:18px;flex-direction: row;display:flex'>
+            <view>
+                <text style='color:#59A328' bindtap='comment'>查看评论</text>
+            </view>
+            <view>
+                <i-icon type="enter" slot="icon" color='#59A328' size='22'/>
+            </view>
+        </view>
+    </view>
+</view>
+<view>
+    <view style='display:flex;flex-direction:row'>
+        <view>
+            <image class="head" src="/img/bobi.jpg"></image>\t
+        </view>
+        <view style='margin-top:20px; font-weight: bold'>
+            <text>BOBI</text>
+        </view>
+    </view>
+    <view style='margin:15px'>
+            <text class='txt'>先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好.</text>
+            <text class='txt'>爱美丽作为主帅第一场就要打上赛季气势如虹的曼城，实在运气不够好。要知道，上赛季曼城和阿森纳交手了3次，曼城全胜，而且场场都是打入3球，阿森纳仅仅攻入1球！而阿森纳球迷对温格的大规模倒戈就源自一周内连续两个0：3输曼城，而且场上是毫无反抗的表现。</text>
+            <text class='txt'>而昨天这场比赛，阿森纳全场都在努力对抗，即使确实个人能力不如曼城—在英超又有几支球队敢说球员个人能力敢抗衡曼城呢？</text>
+            <text class='txt'>是的，勇气和血性，这两个很久没在阿森纳身上看到的属性在昨天的比赛中看到了。首发足以让人大吃一惊，首秀直接上了两个20岁以下的球员，奈尔斯排位在师太之前出场，而贡多齐竟然出现在后腰位置，这可是打曼城！19岁小将搭配防守能力一般的扎卡打后腰？拉姆齐去打前锋？意外！</text>
+            <text class='txt'>
+          作者：郭昱君
+          链接：https://www.zhihu.com/question/289986565/answer/467528937
+          来源：知乎
+          著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</text>
+    </view>
+</view>

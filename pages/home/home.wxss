@@ -1,0 +1,77 @@
+/* pages/home/home.wxss */
+page{
+  height: 100%;
+}
+.search{
+  width: 90%;
+}
+.search_arr {
+  border: 1px solid #59A328;
+  border-radius: 10rpx;
+  margin-left: 5rpx;
+  background-color: #fff
+}
+.search_arr input{
+  margin-left: 100rpx;
+  height: 65rpx;
+  border-radius: 5px;
+}
+.sousuo {
+  margin-left: 20rpx;
+  width: 20%;
+  line-height: 200%;
+  text-align: center;
+  border: 1px solid #F3F3F3;
+  border-radius: 10rpx;
+  background-color: #59A328
+}
+.page_row{
+  display: flex;
+  flex-direction: row;
+  margin: 11px;
+}
+.searchcion {
+  margin: 17rpx 10rpx;
+  position: absolute;
+  left:50rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  margin: 11px;
+  border: 1px solid rgb(223, 222, 213);
+  border-radius: 3px;
+  background-color:#F7F7F7;
+}
+.order{
+  margin-top: 35px;
+}
+.num{
+  font-size: 20px;
+  color: red;
+  margin: 15px;
+  font-weight: bold;
+}
+.pic{
+  height: 80px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 8px
+}
+.title{
+  font-size: 13px;
+  font-weight: bold;
+}
+.hot{
+  font-size: 12px;
+  color: gainsboro;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  padding: 1% 3%;
+}

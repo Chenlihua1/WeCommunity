@@ -1,0 +1,33 @@
+<!--pages/mine/mine.wxml-->
+<view class='mine'>
+  <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <block wx:else>
+          <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image> 
+          <view class='user_name'>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+            <text>ID:12345678</text>
+          </view>
+        </block>
+  </view>
+  <view class='menu'>
+      <view class='menu_name'>
+      <text bindtap='follow'>我的关注</text>
+      </view>
+      <view class='menu_sty'>|</view>
+      <view class='menu_name'>
+      <text bindtap='collect'>我的收藏</text>
+      </view>
+      <view class='menu_sty'>|</view>
+      <view class='menu_name'>
+      <text bindtap='history'>浏览记录</text>
+      </view>
+  </view>
+<!-- 个人信息 -->
+  <view class='infome'>
+    <text style='font-size: 18px;font-weight: bold'>我的信息</text>
+    <text style='font-size:18px;color:#0000FF' bindtap='revise'>修改</text>
+  </view>
+  
+
+</view>

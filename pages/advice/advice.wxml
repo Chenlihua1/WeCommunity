@@ -1,0 +1,44 @@
+<!--pages/advice/advice.wxml-->
+<view class="swiper-tab">  
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">好友消息</view>  
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">系统通知</view> 
+</view>  
+  
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
+    <!-- 好友消息 -->  
+    <swiper-item>  
+      <block wx:for="{{friendNews}}" wx:key="key">
+        <view class="weui_cell">
+          <view class="weui_cell_hd">
+            <image src="{{item.icon}}"></image>
+          </view>
+          <view class="weui_cell_bd">
+            <view class="weui_cell_bd_p"> {{item.text}} </view>
+          </view>
+          <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
+        </view>
+      </block>
+    </swiper-item>  
+
+    <!-- 系统通知 -->  
+    <swiper-item style='background-color:#rgb(226, 226, 228)'>  
+        <view class='xttz' style='text-align:left'>
+          <text>系统通知</text>
+        </view>
+        <view class='xttsnr'>
+            <view>
+                <text class='title'>当文字超出一行时会自动换行那如何让文字不自动换行并在末尾加上省略号呢？</text>
+            </view>
+            <view>
+                <image class='pic' src="/img/game.jpg"></image>
+            </view>
+            <view style='border-bottom: 1px solid #62843C;margin:5px 15px'>
+                <text class='nr'>内容内容内内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容</text>
+            </view>
+            <view class='center'>
+                <text>查看全文</text>
+                <i-icon type="enter" slot="icon" color='#59A328' size='22'/>
+            </view>
+        </view>
+    </swiper-item> 
+</swiper>  

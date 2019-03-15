@@ -1,0 +1,29 @@
+<!--pages/home/home.wxml-->
+<view class='home'>
+  <view class='page_row'>
+    <view class="df search_arr" bindtap="suo">
+      <icon class="searchcion" size='22' type='search' color='#59A328'></icon>
+      <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}" />
+    </view>
+    <view class='sousuo'>提问</view>
+  </view>
+
+  <view class='list' wx:for="{{dataList}}" wx:key="key">
+    <view class='order'>
+      <text class='num'>{{item.queId}}</text>
+    </view>
+    <view class='content'>
+      <view bindtap='answer_list' style='width:180px;'>
+        <view>
+          <text class='title'>{{item.queTitle}}</text>
+        </view>
+        <view>
+          <text class='hot'>{{item.queHot}}热度</text>
+        </view>
+      </view>
+      <view>
+        <image class="pic" src="/img/game.jpg" mode="aspectFill"></image>
+      </view>
+    </view>
+  </view>
+</view>

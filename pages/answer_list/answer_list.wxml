@@ -1,0 +1,103 @@
+<!--pages/answer_list/answer_list.wxml-->
+<view class='title'>
+    <text>如何评价 2018-2019 赛季英超联赛...</text>
+</view>
+<view class='demo-row'>
+    <i-row>
+        <i-col span="8" >6000关注</i-col>
+        <i-col span="8" >
+        <i-icon type="collection" slot="icon" color='#59A328' size='30'/>关注</i-col>
+    </i-row>
+</view>
+<view  class='demo2-row'>
+<i-row>
+    <i-col span="12" i-class="demo-col">5624个回答</i-col>
+    <i-col span="12" i-class="demo-col light" bindtap='answer'>
+    <i-icon type="brush_fill" slot="icon" color='#59A328' size='25' style='margin-right:5px'/>我要回答</i-col>
+</i-row>
+</view>
+<!--正文-->
+<view class='body' bindtap='details'>
+    <view class='body_name1'>
+      <view>
+        <image class="head" src="/img/bobi.jpg"></image>\t
+      </view>
+      <view class='body_name'>
+        <text>Grape</text>
+      </view>
+    </view>
+    <view>
+      <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+    </view>
+    <view>
+      <text style='color:#C1C1C1;font-size:13px;padding:5px 20px'>26K赞同 · 5625评论 · 最新评论：2分钟前</text>
+    </view>
+</view> 
+
+<view class='body' bindtap='details'>
+    <view class='body_name1'>
+      <view>
+        <image class="head" src="/img/bobi.jpg"></image>\t
+      </view>
+      <view class='body_name'>
+        <text>Grape</text>
+      </view>
+    </view>
+    <view>
+      <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+    </view>
+    <view>
+      <text style='color:#C1C1C1;font-size:13px;padding:5px 20px'>26K赞同 · 5625评论 · 最新评论：2分钟前</text>
+    </view>
+</view> 
+
+<view class='body' bindtap='details'>
+    <view class='body_name1'>
+      <view>
+        <image class="head" src="/img/bobi.jpg"></image>\t
+      </view>
+      <view class='body_name'>
+        <text>Grape</text>
+      </view>
+    </view>
+    <view>
+      <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+    </view>
+    <view>
+      <text style='color:#C1C1C1;font-size:13px;padding:5px 20px'>26K赞同 · 5625评论 · 最新评论：2分钟前</text>
+    </view>
+</view> 
+
+<view class='body' bindtap='details'>
+    <view class='body_name1'>
+      <view>
+        <image class="head" src="/img/bobi.jpg"></image>\t
+      </view>
+      <view class='body_name'>
+        <text>Grape</text>
+      </view>
+    </view>
+    <view>
+      <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+    </view>
+    <view>
+      <text style='color:#C1C1C1;font-size:13px;padding:5px 20px'>26K赞同 · 5625评论 · 最新评论：2分钟前</text>
+    </view>
+</view> 
+
+<view class='body' bindtap='details'>
+    <view class='body_name1'>
+      <view>
+        <image class="head" src="/img/bobi.jpg"></image>\t
+      </view>
+      <view class='body_name'>
+        <text>Grape</text>
+      </view>
+    </view>
+    <view>
+      <text class='txt'>谢邀。先说结论，新帅爱美丽的首秀虽然输球，但表现不错：有变化、有拼劲、有新人发光、看得到希望，曼城球员个体依然很强，但整体打得并不好。爱美丽作为主帅</text>
+    </view>
+    <view>
+      <text style='color:#C1C1C1;font-size:13px;padding:5px 20px'>26K赞同 · 5625评论 · 最新评论：2分钟前</text>
+    </view>
+</view> 

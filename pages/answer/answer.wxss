@@ -1,0 +1,21 @@
+/* pages/answer/answer.wxss */
+page{
+  height: 100%
+}
+.title{
+  height: 5%;
+  border: 1px solid #E1E1E1;
+  box-shadow: 1px 1px 1px 1px #E1E1E1;
+  padding:10px 10px 0px 10px;
+  justify-content: space-between;
+  display: flex
+}
+.input_border{
+  border: 1px solid #F4F7FF;
+  margin-top: 10px;
+  background-color: #F6F6F8
+}
+.publish{
+  margin-top: 10px;
+  text-align: right;
+}

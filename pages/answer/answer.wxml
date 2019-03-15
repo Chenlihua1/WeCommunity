@@ -1,0 +1,23 @@
+<!--pages/answer/answer.wxml-->
+<view class='title'>
+    <view>
+        <i-icon type="close" slot="icon" size='30' bindtap='back'/>
+    </view>
+    <view>
+        <text style='font-size:21px;font-weight: bold;'>世界上是先有鸡还是先有蛋？</text>
+    </view>
+    <view>
+        <image style='width:28px;height:28px;' src="/img/send.png"></image>
+    </view>
+</view>
+<view class='input_border'>
+  <textarea placeholder='请输入内容...' maxlength='-1'style='width:100%' autofocus="autofocus"></textarea>
+</view>
+<view class='publish'>
+  <i-button bind:click="handleOpen5" inline type="success" >发布</i-button>
+<i-modal title="提示" visible="{{ visible5 }}" actions="{{ actions5 }}" bind:click="handleClick5">
+    <view>确认发布？</view>
+</i-modal>
+
+<i-message id="message" />
+</view>

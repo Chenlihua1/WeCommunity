@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/search/search",
+    "pages/advice/advice",
+    "pages/mine/mine",
+    "pages/logs/logs",
+    "pages/answer_list/answer_list",
+    "pages/answer/answer",
+    "pages/details/details",
+    "pages/comment/comment",
+    "pages/chat/chat",
+    "pages/browsing-history/browsing-history",
+    "pages/collection/collection",
+    "pages/my-answer/myanswer",
+    "pages/information/information"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#8BC34A",
+    "navigationBarTitleText": "WeCommunity",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#303030",
+    "selectedColor": "red",
+    "backgroundColor": "#8BC34A",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "img/hot_selected.png",
+        "selectedIconPath": "img/hot.png",
+        "pagePath": "pages/home/home",
+        "text": "热点"
+      },
+      {
+        "iconPath": "img/advice_selected.png",
+        "selectedIconPath": "img/advice.png",
+        "pagePath": "pages/advice/advice",
+        "text": "通知"
+      },
+      {
+        "iconPath": "./img/mine_selected.png",
+        "selectedIconPath": "./img/mine.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

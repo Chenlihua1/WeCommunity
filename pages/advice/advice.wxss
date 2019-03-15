@@ -1,0 +1,110 @@
+/* pages/advice/advice.wxss */
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #777777;  
+    text-align: center;  
+    line-height: 90rpx;}  
+.swiper-tab-list{  font-size: 35rpx;  
+    display: inline-block;  
+    width: 50%;  
+    color: #777777;  
+}  
+.on{ color: #8BC34A;  
+    border-bottom: 5rpx solid #8BC34A;}  
+  
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }  
+.swiper-box view{  
+    text-align: center;  
+}  
+/**好友消息**/
+.weui_cell {
+	position: relative;
+	display: flex;
+	padding: 10px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-bottom: 1px solid #dadada;
+}
+ 
+.weui_cell_hd {
+	display: inline-block;
+	width: 50px;
+	margin-right: 10px;
+}
+ 
+.weui_cell_hd image {
+	width: 100%;
+	height: 50px;
+	vertical-align: -2px;
+}
+ 
+.weui_cell_bd {
+	display: inline-block;
+}
+ 
+.weui_cell_bd_p {
+	font-size: 16px;
+	color: #939393;
+}
+ 
+.badge {
+	position: absolute;
+	right: 25px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	background: #ff0000;
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 10px;
+}
+.xttz{
+  text-align:left;
+  font-size:16px;
+  color:#62843C;
+  margin: 15px
+}
+.xttsnr{
+  margin: 5px 15px;
+  border: 1px #62843C solid;
+  border-radius: 20rpx;
+  background-color: #FFF;
+}
+.pic{
+  width: 90%;
+  height: 100px;
+  margin: 5px 15px;
+}
+.title{
+  text-align: left;
+  font-size: 18px;
+  padding: 5px 15px;
+  display: -webkit-box;
+  word-break: break-all; /**再恰当的地方换行 （normal/break-all/keep-all） */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2; /**显示行数 */
+  overflow: hidden; /** 超出文字隐藏*/
+  text-overflow:ellipsis;/**文本溢出用省略号显示*/
+}
+.nr{
+  text-align: left;
+  color: rgb(226, 226, 228);
+  font-size: 15px;
+  padding: 0px 5px 5px 5px;
+  display: -webkit-box;
+  word-break: break-all; /**再恰当的地方换行 （normal/break-all/keep-all） */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2; /**显示行数 */
+  overflow: hidden; /** 超出文字隐藏*/
+  text-overflow:ellipsis;/**文本溢出用省略号显示*/
+}
+.center{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: #62843C
+}

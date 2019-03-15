@@ -1,0 +1,62 @@
+/* pages/answer_list/answer_list.wxss */
+page{
+  height: 100%
+}
+.title{
+  padding: 20px 20px 10px 20px;
+  font-size: 20px
+}
+.demo-row{
+  padding: 5px 20px;
+  border-bottom: solid 1px #D8D8D8 ;
+  height:30px;
+  line-height:30px;
+  font-size: 16px;
+}
+.demo2-row{
+  border-bottom: solid 2px #D8D8D8 ;
+  height: 30px;
+  line-height:30px;
+  padding: 5px 20px;
+  justify-content: space-between;
+}
+.demo-col.light{
+  text-align: right;
+  color: #59A328;
+  font-size: 18px;
+  font-weight: bold;
+}
+.demo-col{
+  color: #DBD8D8;
+  font-size: 16px
+}
+.body_name{
+  margin-top: 20px;
+  color: rgb(175, 174, 174)
+}
+.txt{
+  margin: 5px 20px 5px 20px;
+  display: -webkit-box;
+  font-size:35rpx;
+  color:#000000;
+  line-height: 50rpx;
+  word-break: break-all; /**再恰当的地方换行 （normal/break-all/keep-all） */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3; /**显示行数 */
+  overflow: hidden; /** 超出文字隐藏*/
+  text-overflow:ellipsis;/**文本溢出用省略号显示*/
+
+}
+.body_name1{
+  display: flex;
+  flex-direction: row;
+}
+.head{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px 10px 0px 20px
+}
+.body{
+  border-bottom: solid 3px #E8E8E9
+}

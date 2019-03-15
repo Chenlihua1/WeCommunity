@@ -1,0 +1,54 @@
+<!--pages/information/information.wxml-->
+<view class="info-container">
+    <form bindsubmit="submitData" >
+     <view class="page-body-setting">
+        <view class="page-body-setting-item" >
+          <view class="own-info-item">
+            <view class="info-name">性别:</view>
+            <view class="info-text">
+              <radio-group name="sex">
+                <radio value="1" checked="true">男</radio>
+                <radio value="0">女</radio>
+              </radio-group>
+            </view>
+          </view>
+        </view>
+        <view class="page-body-setting-item" >
+          <view class="own-info-item">
+            <view class="info-name"> 地址:</view>
+            <view class="info-text">  <input name="address" class="input-text" /></view>
+          </view>
+        </view>
+        <view class="page-body-setting-item" >
+          <view class="own-info-item">
+            <view class="info-name">行业:</view>
+            <view class="info-text"> 
+              <picker bindchange="bindIndustryChange" name="industry" value="{{index}}" range="{{array}}">
+                <view class="picker">{{array[index]}}</view>
+              </picker>
+            </view>
+          </view>
+        </view>
+        <view class="page-body-setting-item" >
+          <view class="own-info-item">
+            <view class="info-name">生日:</view>
+            <view class="info-text">
+              <picker name="birthday" bindchange="bindDateChange" mode="date" value="{{date}}" start="1990-01-01" end="2018-12-31">
+              <view class="picker">{{date}}</view>
+              </picker>
+            </view>
+          </view>
+        </view>
+        <view class="page-body-setting-item" >
+          <view class="own-info-item">
+            <view class="info-name"> 个性签名:</view>
+            <view class="info-text">  <input name="address" class="input-text" /></view>
+          </view>
+        </view>
+        <view>
+          <button class="button" form-type="submit">修改信息</button>
+        </view>
+    
+      </view> 
+    </form>
+</view>

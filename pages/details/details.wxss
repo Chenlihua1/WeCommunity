@@ -1,0 +1,27 @@
+/* pages/details/details.wxss */
+page{
+  height: 100%;
+  background-color:#F6F8F8;
+}
+.pl{
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  padding: 5px 15px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid gainsboro
+}
+.head{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 10px 10px 0px 20px
+}
+.txt{
+  text-indent: 40rpx;
+  text-align: left;
+  display:block;
+  line-height:normal;
+  white-space: pre-line;
+}
